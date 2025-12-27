@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    android:layout_marginStart="10dp"
+    android:background="#E2DFDF"
+    android:padding="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textColor="@color/black"
+        android:text="William Shakesphere"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/poetname"
+        android:minHeight="30dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:textSize="17sp"
+        android:id="@+id/poetrydata"
+        android:layout_width="match_parent"
+        android:minHeight="60dp"
+        android:text="@string/known_for_his_sonnets_shakespeare_s_works_explore_themes_of_love_beauty_and_mortality_sonnet_18_starting_with_shall_i_compare_thee_to_a_summer_s_day_is_particularly_famous"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="#D7D4D4"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="end"
+        android:id="@+id/dateandtime"
+        android:layout_width="wrap_content"
+        android:minHeight="20dp"
+        android:text="24-dec-2025"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/updatebutton"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:backgroundTint="@null"
+            android:text="UPDATE"
+            />
+
+         <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+             android:layout_margin="5dp"
+             android:layout_weight="1"
+            android:id="@+id/deletebutton"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:backgroundTint="@null"
+            android:text="DELETE"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
