@@ -1,0 +1,1 @@
+A poetry app where all the poets from world can share their poetries and every other poet is able to update them delete them and see them .Used PHP of APIS , Retrofit class to communicate with backend
